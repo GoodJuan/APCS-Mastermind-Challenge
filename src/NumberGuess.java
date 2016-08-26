@@ -129,9 +129,11 @@ public class NumberGuess {
 		if (start  == 1){
 			createNumArray();
 			randomArray = createNumArray();
+			/*
 			for (int k = 0; k < 4; k++){
 				System.out.println(randomArray[k]);
 			}
+			*/
 			gameStart();
 		}
 		else if (start == 2){
